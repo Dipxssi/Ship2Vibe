@@ -1,0 +1,23 @@
+# Environments
+.venv/
+venv/
+.env
+
+# Python Cache (MUST IGNORE)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# uv specific
+uv.lock
+# (Note: Some keep uv.lock for reproducibility, 
+# but for a fast hackathon, ignoring it prevents merge conflicts)
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
