@@ -1,3 +1,6 @@
+"""
+GitHub schema for deployment payloads.
+"""
 from pydantic import BaseModel
 
 class GitHubDeploymentPayload(BaseModel):
